@@ -1,16 +1,5 @@
 import 'package:flutter/material.dart';
 
-class FloatingActionButtonDemo extends StatelessWidget {
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: "Demo",
-      home: FloatingActionButtonPage(),
-    );
-  }
-}
-
 class FloatingActionButtonPage extends StatelessWidget {
 
   @override
