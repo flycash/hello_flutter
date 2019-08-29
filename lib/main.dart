@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hello_flutter/scaffold.dart';
-
-import 'floating_action_button.dart';
+import 'package:hello_flutter/appbar.dart';
 
 void main() => runApp(MyApp());
 
@@ -23,7 +21,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: ScaffoldDemo(),
+      home: AppBarPage(),
     );
   }
 }
